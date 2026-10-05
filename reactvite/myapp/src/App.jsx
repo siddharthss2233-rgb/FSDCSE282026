@@ -1,12 +1,7 @@
-import ICardGallery from "./ICardGallery";
-import "./App.css";
+import ChangeBgColor from "./ChangeBgColor";
 
 function App() {
-  return (
-    <div>
-      <ICardGallery />
-    </div>
-  );
+  return <ChangeBgColor />;
 }
 
 export default App;
